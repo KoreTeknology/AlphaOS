@@ -19,6 +19,7 @@ First, you need to download the package, then import it into Godot engine, enjoy
 # About this project
 
 **Last Release (V0.1.2):**
+[Download](https://github.com/KoreTeknology/AlphaOS/releases/tag/0.1.2)
 
 ---
 
