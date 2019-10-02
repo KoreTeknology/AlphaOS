@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Alpha OS made with Godot 3.1"
+run/main_scene="res://Control.tscn"
+boot_splash/image="res://al.png"
+boot_splash/fullsize=false
+boot_splash/bg_color=Color( 0.137255, 0.137255, 0.137255, 0 )
+config/icon="res://icon.png"
+
+[autoload]
+
+UserData="*res://addons/github-integration/scripts/user_data.gd"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
