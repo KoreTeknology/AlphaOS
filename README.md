@@ -35,6 +35,7 @@ First, you need to download the package, then import it into Godot engine, enjoy
 - [ ] Basic preferences implementation
 - [ ] includes basic mini-app
 - [ ] Internalization: 3 languages (EN,FR,ES)
+- [ ] Save settings system
 
 ---
 
