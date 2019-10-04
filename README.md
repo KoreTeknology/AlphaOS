@@ -23,7 +23,7 @@ First, you need to download the package, then import it into Godot engine, enjoy
 
 ---
 
-## Development Plans TODO
+## Development Plans FEATURES/TODO
 
 :+1:
 - [x] Background color and logo
