@@ -51,7 +51,6 @@ rect_min_size = Vector2( 500, 0 )
 script = ExtResource( 1 )
 
 [node name="BG" type="Control" parent="."]
-editor/display_folded = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 __meta__ = {
@@ -95,12 +94,12 @@ margin_bottom = 150.0
 texture = ExtResource( 3 )
 
 [node name="HeaderBar" type="Panel" parent="."]
+editor/display_folded = true
 margin_right = 2160.0
 margin_bottom = 24.0
 grow_vertical = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="HeaderBar"]
-editor/display_folded = true
 margin_left = 30.0
 margin_top = 2.0
 margin_right = 276.0
@@ -117,12 +116,12 @@ text = "System"
 flat = true
 
 [node name="Button_Window" type="Button" parent="HeaderBar/HBoxContainer"]
-margin_right = 91.0
+margin_right = 194.0
 margin_bottom = 20.0
 focus_mode = 0
 custom_colors/font_color_hover = Color( 0.611765, 0.611765, 0.611765, 1 )
 enabled_focus_mode = 0
-text = "Applications"
+text = "KEY_APPLICATIONS_BUTTON"
 flat = true
 
 [node name="menu2" type="PopupPanel" parent="HeaderBar/HBoxContainer/Button_Window"]
@@ -166,23 +165,23 @@ flat = true
 align = 0
 
 [node name="Button_Window2" type="Button" parent="HeaderBar/HBoxContainer"]
-margin_left = 95.0
-margin_right = 183.0
+margin_left = 198.0
+margin_right = 382.0
 margin_bottom = 20.0
 focus_mode = 0
 custom_colors/font_color_hover = Color( 0.611765, 0.611765, 0.611765, 1 )
 enabled_focus_mode = 0
-text = "Preferences"
+text = "KEY_PREFERENCES_BUTTON"
 flat = true
 
 [node name="ButtonAbout" type="Button" parent="HeaderBar/HBoxContainer"]
-margin_left = 187.0
-margin_right = 237.0
+margin_left = 386.0
+margin_right = 532.0
 margin_bottom = 20.0
 focus_mode = 0
 custom_colors/font_color_hover = Color( 0.611765, 0.611765, 0.611765, 1 )
 enabled_focus_mode = 0
-text = "About"
+text = "KEY_ABOUT_BUTTON"
 flat = true
 
 [node name="icon" type="Sprite" parent="HeaderBar"]
@@ -416,6 +415,18 @@ margin_bottom = 201.0
 custom_styles/normal = SubResource( 3 )
 text = "AlphaOS Terminal DEMO (TODO)"
 
+[node name="Window_Texteditor" type="WindowDialog" parent="Windows"]
+margin_left = 121.0
+margin_top = 66.0
+margin_right = 655.0
+margin_bottom = 392.0
+
+[node name="Panel" type="Panel" parent="Windows/Window_Texteditor"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.50732
+margin_right = 1.50732
+
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 editor/display_folded = true
 anchor_left = 1.0
@@ -608,8 +619,8 @@ text = "KEY_EXIT_BUTTON"
 icon = ExtResource( 21 )
 [connection signal="pressed" from="HeaderBar/HBoxContainer/Button_System" to="menu1" method="_on_Button_System_pressed"]
 [connection signal="pressed" from="HeaderBar/HBoxContainer/Button_Window" to="HeaderBar/HBoxContainer/Button_Window/menu2" method="_on_Button_Window_pressed"]
-[connection signal="pressed" from="HeaderBar/HBoxContainer/Button_Window/menu2/VBoxContainer/ButtonTerminal" to="HeaderBar/HBoxContainer/Button_Window/menu2" method="_on_ButtonTerminal_pressed"]
 [connection signal="pressed" from="HeaderBar/HBoxContainer/Button_Window/menu2/VBoxContainer/ButtonTerminal" to="Windows/WindowTerminal" method="_on_ButtonTerminal_pressed"]
+[connection signal="pressed" from="HeaderBar/HBoxContainer/Button_Window/menu2/VBoxContainer/ButtonTerminal" to="HeaderBar/HBoxContainer/Button_Window/menu2" method="_on_ButtonTerminal_pressed"]
 [connection signal="pressed" from="HeaderBar/HBoxContainer/Button_Window2" to="Windows/WindowDialog" method="_on_Button_Window2_pressed"]
 [connection signal="pressed" from="HeaderBar/HBoxContainer/ButtonAbout" to="Windows/WindowAbout" method="_on_ButtonAbout_pressed"]
 [connection signal="confirmed" from="ConfirmationDialog" to="ConfirmationDialog" method="_on_ConfirmationDialog_confirmed"]

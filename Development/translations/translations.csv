@@ -1,3 +1,6 @@
 ,en,es,fr
 KEY_EXIT_BUTTON,Exit,Salir,Quitter
 KEY_LEARN_BUTTON,Learn,Aprender,Apprendre
+KEY_APPLICATIONS_BUTTON,Applications,Aplicaciones,Programmes
+KEY_PREFERENCES_BUTTON,Preferences,Preferencias,Réglages
+KEY_ABOUT_BUTTON,About,Acerca,A propos

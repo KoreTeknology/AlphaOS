@@ -30,11 +30,15 @@ First, you need to download the package, then import it into Godot engine, enjoy
 - [x] Top menu header with buttons, icons
 - [x] Windowsdialogs, show on user actions (button, visibility)
 
+:fire:
+- [x] Internalization: 3 languages (EN,FR,ES)
+- [ ] MiniApp: simple Text Editor
+
+
 :-1:
 - [ ] Dialogs z-index and full screen button (extend to)
 - [ ] Basic preferences implementation and Save settings system
-- [ ] includes basic mini-app: text editor, terminal, color palette
-- [ ] Internalization: 3 languages (EN,FR,ES)
+- [ ] includes basic mini-app
 - [ ] Internal doc/tuto system
 
 ---
