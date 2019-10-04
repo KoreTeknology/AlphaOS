@@ -31,9 +31,11 @@ First, you need to download the package, then import it into Godot engine, enjoy
 - [x] Windowsdialogs, show on user actions (button, visibility)
 
 :-1:
-- [ ] Dialogs z-index
-- [ ] Basic preferences implementation
-- [ ] includes basic mini-app
+- [ ] Dialogs z-index and full screen button (extend to)
+- [ ] Basic preferences implementation and Save settings system
+- [ ] includes basic mini-app: text editor, terminal, color palette
+- [ ] Internalization: 3 languages (EN,FR,ES)
+- [ ] Internal doc/tuto system
 
 ---
 
