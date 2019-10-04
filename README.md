@@ -7,7 +7,7 @@
 ### The aim of this project is to explore UI design and users interactions.
 AlphaOS (from the CanvasLayer point of view) is a very simple operating system, demonstrating the interface blocs and mouse/keys actions. My goals here is to learn about alignments, bloc position, windows sizes and panels/dialogs.
 
-![logo](https://github.com/KoreTeknology/AlphaOS/blob/master/Documentation/capture_01.png)
+![logo](https://github.com/KoreTeknology/AlphaOS/blob/master/Documentation/alphaos.png)
 
 
 ---
