@@ -1,4 +1,4 @@
-#extends Control
+extends Control
 #
 #func _ready():
 #	for window in get_children():
@@ -8,4 +8,5 @@
 #	move_child(node, get_child_count() - 1)
 ##
 
+onready var winAbout = $WindowAbout
 

@@ -17,14 +17,14 @@ _global_script_class_icons={
 
 config/name="Alpha OS made with Godot 3.1"
 run/main_scene="res://Control.tscn"
-boot_splash/image="res://al.png"
+boot_splash/image="res://assets/images/al.png"
 boot_splash/fullsize=false
 boot_splash/bg_color=Color( 0.137255, 0.137255, 0.137255, 0 )
 config/icon="res://icon.png"
 
-[autoload]
+[locale]
 
-UserData="*res://addons/github-integration/scripts/user_data.gd"
+translations=PoolStringArray( "res://translations/translations.en.translation", "res://translations/translations.es.translation", "res://translations/translations.fr.translation" )
 
 [rendering]
 

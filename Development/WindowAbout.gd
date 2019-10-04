@@ -13,7 +13,6 @@ func _ready() -> void:
 #	pass
 
 
-func _on_ButtonAbout_pressed() -> void:
+
+func _on_ButtonAbout_pressed():
 	visible = !visible
-
-
